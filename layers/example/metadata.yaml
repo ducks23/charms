@@ -7,16 +7,17 @@ tags:
   # Replace "misc" with one or more whitelisted tags from this list:
   # https://jujucharms.com/docs/stable/authors-charm-metadata
   - misc
+  - tutuorials
 series:
   - bionic
 
 subordinate: false
 provides:
-  provides-relation:
-    interface: interface-name
+        provides-relation:
+                interface: interface-name
 requires:
-  requires-relation:
-    interface: interface-name
+        database:
+                interface: mysql
 peers:
-  peer-relation:
-    interface: interface-name
+        peer-relation:
+                interface: interface-name

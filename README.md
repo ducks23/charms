@@ -3,12 +3,12 @@
 This is a my first charm written. Layer example relates to a mysql database
 
 
-*To deploy: *
+# To deploy: 
 
 
-> cd ~/charms/layers 
-> charm proof example 
-> charm build example 
-> juju deploy ./example 
-> juju deploy cs:mysql 
-> juju relate example mysql 
+1. cd ~/charms/layers 
+1. charm proof example 
+1. charm build example 
+1. juju deploy ./example 
+1. juju deploy cs:mysql 
+1. juju relate example mysql 

@@ -1,14 +1,14 @@
 # charms
-
+\n
 This is a my first charm written. Layer example relates to a mysql database
 
 
-to deploy
+# to deploy
+\n
 
-
-cd ~/charms/layers
-charm proof example
-charm build example
-juju deploy ./example
-juju deploy cs:mysql
-juju relate example mysql
+cd ~/charms/layers \n
+charm proof example \n
+charm build example \n
+juju deploy ./example \n
+juju deploy cs:mysql \n
+juju relate example mysql 

@@ -6,3 +6,5 @@ options:
   apt:
     packages:
      - hello
+
+repo: git@github.com:ducks23/layer-example.git
